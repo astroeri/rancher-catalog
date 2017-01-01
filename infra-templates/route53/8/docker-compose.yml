@@ -1,7 +1,7 @@
 route53:
-  image: rancher/external-dns:v0.6.0
+  image: hcwdocker.service.tieto.com/rancher/external-dns:v0.6.0
   command: -provider=route53
-  expose: 
+  expose:
    - 1000
   environment:
     AWS_ACCESS_KEY: ${AWS_ACCESS_KEY}

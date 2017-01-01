@@ -1,5 +1,5 @@
 route53:
-  image: rancher/external-dns:v0.6.1
+  image: hcwdocker.service.tieto.com/rancher/external-dns:v0.6.1
   command: -provider=route53
   expose:
    - 1000
